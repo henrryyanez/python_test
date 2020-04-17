@@ -1,4 +1,4 @@
-mport sys
+import sys
 import socket
 from datetime import datetime as dt
 import time
@@ -25,7 +25,7 @@ def whois(ip):
 
     print(response.decode())
     
-    def main():
+def main():
     nombre = "ip.txt"
     with open(nombre, "r") as archivo:
         for linea in archivo:
